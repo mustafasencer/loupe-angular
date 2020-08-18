@@ -1,0 +1,31 @@
+.html-scratchpad {
+  padding: 10px;
+  background: #eee;
+  overflow: scroll;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  min-height: 100%;
+}
+
+button {
+  border-radius: 10px;
+}
+
+.editor-switch {
+  position: absolute;
+  float: right;
+  top: 5px;
+  right: 5px;
+  z-index: 9999;
+}
+
+.ace-editor-wrapper {
+  -ms-flex: 1;
+  flex: 1;
+  background: #FDF6E3;
+}
+
+.html-editor {
+  min-height: 100%;
+  position: relative;
+}
+

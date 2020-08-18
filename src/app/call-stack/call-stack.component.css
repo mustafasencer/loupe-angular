@@ -1,0 +1,44 @@
+.stack {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  padding-left: 10px;
+}
+
+.stackBox > .spinner-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 5px;
+}
+
+.tr-stack-enter {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  opacity: 0.01;
+  transition: all 0.1s linear;
+}
+
+.tr-stack-enter.stack-item-callback {
+  -webkit-transform: translate(0, 100px);
+  transform: translate(0, 100px);
+  transition: all 0.25s linear;
+}
+
+.tr-stack-enter.tr-stack-enter-active {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.tr-stack-leave {
+  opacity: 1;
+  transition: all 0.1s linear;
+}
+
+.tr-stack-leave.tr-stack-leave-active {
+  opacity: 0.01;
+  transition: all 0.1s linear;
+}
+
+

@@ -1,0 +1,7 @@
+.ace-editor {
+  -ms-flex: 1;
+  flex: 1;
+  line-height: 1.75 !important;
+  background: #FDF6E3;
+  min-height: 100%;
+}

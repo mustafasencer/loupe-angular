@@ -1,0 +1,8 @@
+.stack-item {
+  font-family: monospace;
+  padding: 10px;
+  margin: 5px;
+  border: 2px #ddd solid;
+  width: 220px;
+  margin: 10px auto;
+}
